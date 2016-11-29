@@ -114,8 +114,17 @@ article {
   
   h1 {
 	width: 90vw;
+	font-size: 5em;
   }
-
+  
+  label {
+	font-size: 2.2em;
+  }
+  
+  article {
+   font-size: 1.9em;
+  }
+  
 }
 
 div > input:checked ~ article { height: 50vh; opacity: 1; }
