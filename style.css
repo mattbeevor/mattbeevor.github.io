@@ -95,9 +95,9 @@ article {
 	transition:height .25s linear, opacity .15s linear;
     -webkit-transition: height .25s linear, opacity .15s linear; 
     position: relative; 
-    top: 5px;
+    top: 0px;
     margin-bottom: 0;
-    padding: 0 10px;
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
 	font-weight: 300;
     font-size: 1.3em;
@@ -123,8 +123,9 @@ article {
   
   article {
    font-size: 1.9em;
+   top: 13px;
   }
   
 }
 
-div > input:checked ~ article { height: 50vh; opacity: 1; }
+div > input:checked ~ article { height: 40vh; opacity: 1; }
