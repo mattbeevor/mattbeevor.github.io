@@ -9,14 +9,15 @@ body {
     overflow:hidden;
 } 
 
-#profile {
+#example {
 	border-radius: 5px;
-    margin: 0px 20px 0px 0px;
+	    float: right;
+    margin: 20px 0px 0px 0px;
 	width:380px;
 	height:175px;
 }
 
-#example {
+#profile {
 	border-radius: 5px;
     float: right;
     margin: 20px 0px 0px 0px;
