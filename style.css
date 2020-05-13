@@ -85,7 +85,6 @@ ul{
 
 .card__title span{
     font-size: 1rem;
-    color: #44f;
 }
 
 .card__content{
@@ -123,6 +122,10 @@ a.card__title>*:hover{
     margin: 1rem;
     font-size: 1.2rem;
     display: block;
+}
+
+.link{
+    color: #44f;
 }
 
 @media screen and (max-width: 600px) {
