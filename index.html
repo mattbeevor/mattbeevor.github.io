@@ -28,9 +28,34 @@
       <div class="section__content">
         <div class="card">
           <div class="card__title text-on-line">
-            <h1>28b</h1>
+            <h1><a data-link="criticalmass">Critical Mass</a></h1>
+            <p>Developer</p>
+            <p>Jul 2021 &ndash; Present</p>
+          </div>
+          <div class="card__content">
+            <ul>
+              <li>
+                Working as part of a team on marketing campaign websites for a
+                major automotive brand
+              </li>
+              <li>
+                Creating server side rendered sites using gatsby and next.js,
+                using react components and hooks
+              </li>
+              <li>
+                Working with three.js and other tools on 3D visualisations of
+                vehicles
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section__content">
+        <div class="card">
+          <div class="card__title text-on-line">
+            <h1><a data-link="28b">28b</a></h1>
             <p>Front-end Developer</p>
-            <p>Dec 2018 &ndash; Present</p>
+            <p>Dec 2018 &ndash; Jul 2021</p>
           </div>
           <div class="card__content">
             <ul>
@@ -241,21 +266,23 @@
   </body>
   <script>
     const links = {
-      email: "mailto:beeeevor@gmail.com?Subject=Hello",
-      vaes: "https://28b.co.uk/veeva-approved-emails-introduction/",
-      cm: "https://www.charlottemanning.art",
-      "cm-code": "https://gitlab.com/mattbeevor/cm3",
-      nm: "https://mattbeevor.github.io/newsmap/",
-      "nm-code": "https://github.com/mattbeevor/newsmap",
-      cte: "https://christmas-tree-editor.netlify.app/",
-      "cte-code": "https://gitlab.com/mattbeevor/tree3",
-      wlq: "https://mattbeevor.github.io/WorldLeadersQuiz/",
-      "wlq-code": "https://github.com/mattbeevor/WorldLeadersQuiz",
-      sms: "https://social-media-site.vercel.app/",
-      "sms-code": "https://gitlab.com/mattbeevor/social-media-site"
+      email: 'mailto:beeeevor@gmail.com?Subject=Hello',
+      '28b': 'https://28b.co.uk/',
+      criticalmass: 'https://www.criticalmass.com/',
+      vaes: 'https://28b.co.uk/veeva-approved-emails-introduction/',
+      cm: 'https://www.charlottemanning.art',
+      'cm-code': 'https://gitlab.com/mattbeevor/cm3',
+      nm: 'https://mattbeevor.github.io/newsmap/',
+      'nm-code': 'https://github.com/mattbeevor/newsmap',
+      cte: 'https://christmas-tree-editor.netlify.app/',
+      'cte-code': 'https://gitlab.com/mattbeevor/tree3',
+      wlq: 'https://mattbeevor.github.io/WorldLeadersQuiz/',
+      'wlq-code': 'https://github.com/mattbeevor/WorldLeadersQuiz',
+      sms: 'https://social-media-site.vercel.app/',
+      'sms-code': 'https://gitlab.com/mattbeevor/social-media-site'
     };
 
-    document.querySelectorAll("a").forEach(a => {
+    document.querySelectorAll('a').forEach(a => {
       a.href = links[a.dataset.link];
     });
   </script>
