@@ -19,7 +19,7 @@
   <body>
     <header>
       <h1>MATT BEEVOR</h1>
-      <h2>Front-end Developer</h2>
+      <h2>Developer</h2>
     </header>
     <section>
       <div class="section__header text-on-line">
@@ -28,9 +28,36 @@
       <div class="section__content">
         <div class="card">
           <div class="card__title text-on-line">
+            <h1><a data-link="aws">Amazon Web Services</a></h1>
+            <p>Software Dev Engineer</p>
+            <p>May 2022 &ndash; Present</p>
+          </div>
+          <div class="card__content">
+            <ul>
+              <li>
+                Working on new features and operational improvements for the
+                <a class="link" data-link="xray">X-Ray</a> distributed tracing
+                system.
+              </li>
+              <li>
+                Owning design, development, and collaboration across teams to
+                implement a component that is needed as part of a new feature
+                <a class="link" data-link="tracelinking">(trace linking)</a>.
+              </li>
+              <li>
+                Creating Ruby and Java packages, classes, and unit tests, as
+                well as end to end tests.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section__content">
+        <div class="card">
+          <div class="card__title text-on-line">
             <h1><a data-link="criticalmass">Critical Mass</a></h1>
             <p>Developer</p>
-            <p>Jul 2021 &ndash; Present</p>
+            <p>Jul 2021 &ndash; May 2022</p>
           </div>
           <div class="card__content">
             <ul>
@@ -175,26 +202,6 @@
             </ul>
           </div>
         </div>
-        <div class="card">
-          <div class="card__title text-on-line">
-            <h1>World Leaders Quiz</h1>
-            <p>
-              ( <a class="link" data-link="wlq">Link</a> |
-              <a class="link" data-link="wlq-code">Code</a> )
-            </p>
-          </div>
-          <div class="card__content">
-            <a data-link="wlq"><img id="thumb" src="wlq thumbnail.png" /></a>
-            <ul>
-              <li>
-                Randomly generates questions based on a list of world leaders<br />
-                Made in Angular4
-              </li>
-              <li>Styled with Bootstrap</li>
-              <li>Optimised for mobile use</li>
-            </ul>
-          </div>
-        </div>
       </div>
     </section>
     <section>
@@ -268,6 +275,7 @@
     const links = {
       email: 'mailto:beeeevor@gmail.com?Subject=Hello',
       '28b': 'https://28b.co.uk/',
+      aws: 'https://aws.amazon.com/',
       criticalmass: 'https://www.criticalmass.com/',
       vaes: 'https://28b.co.uk/veeva-approved-emails-introduction/',
       cm: 'https://www.charlottemanning.art',
@@ -276,10 +284,11 @@
       'nm-code': 'https://github.com/mattbeevor/newsmap',
       cte: 'https://christmas-tree-editor.netlify.app/',
       'cte-code': 'https://gitlab.com/mattbeevor/tree3',
-      wlq: 'https://mattbeevor.github.io/WorldLeadersQuiz/',
-      'wlq-code': 'https://github.com/mattbeevor/WorldLeadersQuiz',
       sms: 'https://social-media-site.vercel.app/',
-      'sms-code': 'https://gitlab.com/mattbeevor/social-media-site'
+      'sms-code': 'https://gitlab.com/mattbeevor/social-media-site',
+      xray: 'https://aws.amazon.com/xray/',
+      tracelinking:
+        'https://aws.amazon.com/about-aws/whats-new/2022/11/aws-x-ray-trace-linking-event-driven-applications-amazon-sqs-lambda/'
     };
 
     document.querySelectorAll('a').forEach(a => {
