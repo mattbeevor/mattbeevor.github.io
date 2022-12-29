@@ -58,7 +58,7 @@ section > h1 {
 .card__title {
   text-decoration: none;
   margin-bottom: 0.5rem;
-  line-height: 2rem;
+  line-height: 1.75rem;
 }
 
 .card__title h1 {
